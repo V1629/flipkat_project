@@ -51,7 +51,7 @@ def clean_text(text):
     return cleaned
 
 def filter_relevant_text(texts):
-    relevant_words = ['wheat', 'pasta', 'spaghetti', 'noodle', 'macaroni','turmeric','powder','dark','fantasy', 'penne','saffola','oats','kwality', 'choco', 'flakes','kellogs','chocos','Tedhe','medhe','good','day','fortune','suji','kohinoor','matic']
+    relevant_words = ['wheat', 'pasta', 'spaghetti', 'noodle', 'macaroni','turmeric','powder','dark','fantasy', 'penne','saffola','oats','kwality', 'choco', 'flakes','kellogs','chocos','Tedhe','medhe','good','day','fortune','suji','kohinoor','matic','Diaper', 'pants','baby', 'pants','Aloo',' Bhujia','TEDHE',' MEDHE','Bourn',' Vita','Cadbury ','Choco ','Chips','Raw','Peanut','comfort','Cuddles','super','pants','Dettol','Dove','Ezee','fab','Godrej','Kachi ghani','mustard oil','sugar','suji','Mix',' fruit','ghadi','Detergent','happy','happy','Creame','Sandwiches','huggies','ice','popz', 'Basmati ','Rice','Lays','Levista','Coffee','LUX','Margo','Surf','excel','Stains','Real','Fruit','juice',"NACHO",'POTATO','CHIPS','PEAS']
     filtered_texts = []
     
     for text in texts:
@@ -85,7 +85,7 @@ def process_image(image_path):
 
 # Example usage
 if __name__ == "__main__":
-    image_path = 'darkfantasy.jpg'  # Replace with your image path
+    image_path = r"C:\Users\lenovo\OneDrive\Pictures\Screenshots\goodday.jpg"# Replace with your image path
     result = process_image(image_path)
     print("Extracted Text:")
     print(result)
