@@ -1,45 +1,9 @@
-# Create a virtual environment named 'flipkart_env'
-python -m venv flipkart_env
-
-Activate the Virtual Environment:
-
-Windows:
-flipkart_env\Scripts\activate
-
-macOS/Linux:
-source flipkart_env/bin/activate
-
-pip install -r requirements.txt
-
-Installing Tesseract OCR Engine
-Windows:
-Download the Installer:
-Visit the Tesseract OCR GitHub Releases page.
-Download the latest Windows installer (e.g., tesseract-5.3.0.exe).
-
-Run the Installer:
-Follow the installation prompts.
-By default, Tesseract is installed in C:\Program Files\Tesseract-OCR\tesseract.exe.
-
-Add Tesseract to System PATH (Optional but Recommended):
-This allows pytesseract to locate the Tesseract executable without specifying the path in your script.
-Steps:
-Right-click on "This PC" or "My Computer" and select "Properties".
-Click on "Advanced system settings".
-Click on "Environment Variables".
-Under "System variables", find and select the "Path" variable, then click "Edit".
-Click "New" and add the path to the Tesseract executable (e.g., C:\Program Files\Tesseract-OCR\).
-Click "OK" on all dialogs to apply the changes.      
-
-verify the installation:
-tesseract --version
-
-
-
-in command prompt:
-echo "opencv-python==4.7.0.72
-numpy==1.23.5
-Pillow==9.4.0
+opencv-python==4.8.0
+tensorflow==2.13.0
 pytesseract==0.3.10
-spacy==3.5.0" > requirements.txt
+numpy==1.24.0
+Pillow==9.5.0
+matplotlib==3.7.1
+torch==2.0.1
+torchvision==0.15.2
 
