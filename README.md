@@ -41,4 +41,8 @@ Clone the repository:
 git clone https://github.com/yourusername/smart-quality-test-system.git
 Navigate to the project directory:
 cd smart-quality-test-system
+
+contributors:
+Ashutosh kumar singh
+Prashant pratap tripathi
                           
